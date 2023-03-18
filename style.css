@@ -1,0 +1,98 @@
+body {
+  font-family: 'Trebuchet MS';
+  font-size: larger;
+}
+
+table * {
+  /* border: 1px double black; */
+}
+
+table {
+  /* background: rgb(166, 239, 252); */
+  /* border: 1px solid black; */
+  max-width: 35%;
+}
+
+
+.foto-perfil img {
+  border-radius: 100%;
+  width: 90px;
+}
+
+.foto-perfil {
+  vertical-align: top;
+  text-align: center;
+  padding: 0;
+}
+
+.saludo {
+  padding-bottom: 10px;
+  font-size: small;
+}
+
+.nombre {
+  color: #0474dc;
+  font-weight: bold;
+}
+
+.blue {
+  color: #0474dc;
+}
+
+.carrera td {
+  color: grey;
+  font-size: small;
+  padding: 0.3rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgb(83, 83, 83);
+}
+
+.p1 {
+  padding: .2rem;
+}
+
+.pb0 {
+  padding-bottom: 0;
+}
+
+icono {
+  padding: 0;
+}
+
+.tabla-social {
+  font-size: 0.9rem;
+  padding-top: .7rem;
+  padding-bottom: 0;
+}
+
+.tabla-icono {
+  font-size: 1.7rem;
+  /* background: rgb(106, 173, 255); */
+}
+
+.linkedin {
+  color: #0a66c2;
+}
+
+#important,
+#eco {
+  font-size: .45rem;
+  font-style: italic;
+  /* width: 100%; */
+  color: gray;
+  border-top: 1px solid black;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.texto-eco {
+  color: green;
+  border-left: 1px solid green;
+}
+
+.hoja {
+  font-size: 1.7rem;
+  color: green;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
