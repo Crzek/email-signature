@@ -13,6 +13,12 @@ table {
   max-width: 35%;
 }
 
+a,
+a:visited {
+  text-decoration: none;
+  color: black
+}
+
 
 .foto-perfil img {
   border-radius: 100%;
@@ -70,8 +76,13 @@ icono {
   /* background: rgb(106, 173, 255); */
 }
 
-.linkedin {
+.linkedin,
+.linkedin a:visited {
   color: #0a66c2;
+}
+
+.github a:visited {
+  color: black;
 }
 
 #important,
