@@ -1,19 +1,13 @@
 body {
   font-family: 'Trebuchet MS';
-  font-size: larger;
+  font-size: x;
 }
 
-table * {
-  /* border: 1px double black; */
-}
+/* table * {
+  border: 1px double black;
+} */
 
-table {
-  /* background: rgb(166, 239, 252); */
-  /* border: 1px solid black; */
-  max-width: 35%;
-}
-
-a,
+*/ a,
 a:visited {
   text-decoration: none;
   color: black
@@ -62,24 +56,29 @@ a:visited {
   padding-bottom: 0;
 }
 
-icono {
-  padding: 0;
-}
 
 .tabla-social {
-  font-size: 0.9rem;
+  font-size: medium;
   padding-top: .7rem;
   padding-bottom: 0;
+
 }
 
-.tabla-icono {
-  font-size: 1.7rem;
-  /* background: rgb(106, 173, 255); */
+.tabla-social *,
+.tabla-social:visited {
+  text-decoration: none;
+  color: black;
 }
+
+/* .tabla-icono {
+  font-size: 1.7rem;
+  background: rgb(106, 173, 255);
+} */
 
 .linkedin,
 .linkedin a:visited {
   color: #0a66c2;
+  padding-right: 5px;
 }
 
 .github a:visited {
@@ -107,4 +106,18 @@ icono {
   color: green;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.svg-ico-green {
+  width: 20px;
+  fill: green;
+}
+
+.svg-ico {
+  width: 20px;
+  fill: rgb(21, 35, 59);
+}
+
+a img {
+  width: 40px;
 }
